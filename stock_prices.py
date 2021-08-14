@@ -12,6 +12,7 @@ class StockPrices:
         self.stock_data = self.get_json_data()
         self.difference = 0.00
         self.diff_percentage = 0.00
+        self.stock_name = STOCK
 
     @staticmethod
     def get_json_data():
